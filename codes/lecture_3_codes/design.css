@@ -1,0 +1,101 @@
+.color-1{
+    background-color: aquamarine;
+}
+.color-2{
+    background-color: lightcoral;
+}
+.color-3{
+    background-color: orange;
+}
+.color-4{
+    background-color: burlywood;
+}
+
+.child{
+    height:100px;
+    width:20%;
+}
+
+
+.flex-parent{
+    display: flex;
+    height: 300px;
+
+    /* by default, child tags/divs are align left and top */
+    
+    /* horizontal alignment: left, center, right */
+    /* space-between: create gaps such that total width is 100% */
+    /* space-evenly: create gaps such that total width is 100% + space is even all around */
+    justify-content: center; 
+    /* vertical alignment: baseline, center, end */
+    align-items:end;
+
+    /* space between childs/items */
+    gap: 20px;
+
+    /*  */
+
+}
+
+.grid-parent{
+    display: grid;
+    /* repeat(3,1fr): 3 equal sized column */
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    gap:5px;
+}
+
+
+.card-parent{
+    display:flex;
+    background-color: lightsteelblue;
+    gap: 25px;
+    padding:25px;
+    
+}
+
+.card{
+    padding: 25px;
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    border: 3px solid black;
+
+    /* box-shadow: x-offset|y-offset|blur|spread| color */
+    /* x-offset: right shift
+       y-offset: down shift
+       blur: how much blur
+       spread: how much wide the shadow should be */
+    box-shadow: 8px 8px 0px 5px black;
+    
+}
+
+.large-text{
+    font-size:48px;
+    font-weight: bold;
+}
+
+.button{
+    width:100%;
+    background-color: #1d78f0;
+    border:none;
+    color:white;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px; */
+
+    /*padding: top/bottom | right/left*/
+    /* padding: 10px 20px; */
+
+    padding: 10px 20px 10px 20px; /* top|right|bottom|left */
+
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+
+

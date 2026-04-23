@@ -1,0 +1,100 @@
+.flex
+{
+    display: flex;
+}
+.grey{
+    background-color:#EBEBEB ;
+}
+.blue{
+    background-color: #C1CDFF;
+
+}
+.violet{
+    background-color: #536FFE;
+}
+.green{
+    background-color:#9efe1e ;
+}
+.orange{
+    background-color:#febd57;
+}
+.white
+{
+    background-color: #ffffff;
+}
+
+
+.padding{
+    padding: 10px;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 5vh;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.menuItems{
+    padding-top: 10px;
+    list-style-type:none;
+    gap: 10px;
+    font-size: larger;
+    padding-bottom: 0%;
+    
+}
+.logo{
+padding-top: 10px;
+font-size: x-large;
+padding-bottom: 0%;
+}
+.image{
+    background-color:#536FFE;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.box{
+    height: 200px;
+    width:400px;
+    background-color: white;
+    padding:5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.mainbody{
+    height: 90vh;
+    padding: auto;
+
+}
+.gap{
+    gap: 10px;
+}
+.taskbox{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width:400px;
+    background-color: white;
+    padding:5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button{
+   color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 2%;
+    width: 5vw;
+}
+.progress-bar{
+    width:100%;
+    border-radius: 8px;
+    height: 5%;
+}
+
+.w90{
+    width: 90%;
+    height: 100%;
+}
